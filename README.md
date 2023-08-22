@@ -1,4 +1,4 @@
-# Classification-Model-Project
+## Classification-Model-Project
 The purpose of this model is to predict customer churn at Telco.
 
 My goal is to find specific features that drive customer churn at Telco.
@@ -52,8 +52,8 @@ Planning:
   
 Acquisition:
 - Using a function with my credentials stored in a env.py file, I connected to codeup's MySQL server.
-- Generate a query pertinent to the project
-- Using a deliverable I created, I called a function I built to acquire and read telco data from codeup's MySQL server.
+- Created a query pertinent to the project
+- Using a deliverable I created with the query, I called a function I built to acquire and read telco data from codeup's MySQL server.
 
 Preparation:
 - perform tasks such as handling null values, outliers, normalizing text, binning of data, changing data types, etc.
