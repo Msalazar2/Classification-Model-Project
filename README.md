@@ -1,7 +1,7 @@
 ## Classification-Model-Project
-The purpose of this model is to predict customer churn at Telco.
-
-My goal is to find specific features that drive customer churn at Telco.
+## Goal
+* The purpose of this model is to predict customer churn at Telco.
+* My goal is to find specific features that drive customer churn at Telco.
 
 1. initial hypotheses and/or questions you have of the data, ideas
 
