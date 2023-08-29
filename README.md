@@ -71,8 +71,13 @@ payment_type: Type of payment the customer uses
 - Deployed my model and a reproducable report
 - Made recommendations
 
-4. instructions or an explanation of how someone else can reproduce your project and findings (What would someone need to be able to recreate your project on their own?)
+4. instructions or an explanation of how someone else can reproduce project and findings
 
-Enviroment setup: Conda, Python, MySql
+Enviroment setup: 
+- Install Conda, Python, MySql, VS Code or Jupyter Notebook
+- Clone this repo 
 
-6. key findings, recommendations, and takeaways from your project
+6. key findings, recommendations, and takeaways
+- Monthly contracts amd charges are key features driving customer churn
+- I recommend incentivizing yearly contracts by offering promotion deals and a loyalty program
+
