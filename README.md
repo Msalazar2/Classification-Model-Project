@@ -72,13 +72,12 @@ payment_type: Type of payment the customer uses
 - Deployed my model and a reproducable report
 - Made recommendations
 
-Instructions or an explanation of how someone else can reproduce project and findings
+## Key findings, recommendations, and takeaways
+- Monthly contracts amd charges are key features driving customer churn
+- I recommend incentivizing yearly contracts by offering promotion deals and a loyalty program
+
+## Instructions or an explanation of how someone else can reproduce project and findings
 
 Enviroment setup: 
 - Install Conda, Python, MySql, VS Code or Jupyter Notebook
 - Clone this repo 
-
-Key findings, recommendations, and takeaways
-- Monthly contracts amd charges are key features driving customer churn
-- I recommend incentivizing yearly contracts by offering promotion deals and a loyalty program
-
