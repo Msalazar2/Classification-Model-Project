@@ -3,12 +3,12 @@
 * The purpose of this model is to predict customer churn at Telco.
 * My goal is to find specific features that drive customer churn at Telco.
 
-## 1. initial hypotheses
+## Initial hypotheses
 
 * Null Hypothesis: features do not drive customers to churn
 * Alternative Hypothesis: features do drive customers to churn
 
-## 2. data dictionary
+## Data dictionary
 
 contract_type: The type of contract the customer has agreed to
 
@@ -71,13 +71,13 @@ payment_type: Type of payment the customer uses
 - Deployed my model and a reproducable report
 - Made recommendations
 
-4. instructions or an explanation of how someone else can reproduce project and findings
+Instructions or an explanation of how someone else can reproduce project and findings
 
 Enviroment setup: 
 - Install Conda, Python, MySql, VS Code or Jupyter Notebook
 - Clone this repo 
 
-6. key findings, recommendations, and takeaways
+Key findings, recommendations, and takeaways
 - Monthly contracts amd charges are key features driving customer churn
 - I recommend incentivizing yearly contracts by offering promotion deals and a loyalty program
 
