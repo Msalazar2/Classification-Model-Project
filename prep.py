@@ -22,7 +22,8 @@ def change_dtype(df):
     
     return df
     
-    
+
+#function to split data into train, val, test
 def train_val_test(df, strat, seed = 42):
 
     train, val_test = train_test_split(df, train_size = 0.7,
@@ -39,6 +40,7 @@ def train_val_test(df, strat, seed = 42):
     return df
 
 
+#this function combines other functions for data preparation
 def telco_pipeline():
     
     df = get_telco_data()

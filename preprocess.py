@@ -2,6 +2,7 @@ from scipy import stats
 import pandas as pd
 
 
+#function that changes churn values to Yes & No, and drops insignificant columns to return x and y split
 def xy_split(df):
     
     df['churn'] = df['churn'].map({'Yes': 1, 'No': 0})
@@ -9,7 +10,8 @@ def xy_split(df):
     
     return df.drop(columns= 'churn'), df.churn
     
-    
+
+#function applies one hot encoding to categorical feature and drops repetitave features
 def dummies(df):
     
     df = pd.get_dummies(df)

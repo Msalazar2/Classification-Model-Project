@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 import pandas as pd
 
+#this function creates a count plot bar chart with a count as the y-axis(categorical to categorical)
 def countplt(df, target, feature):
     
     sns.countplot(data = df, x = feature, hue = target)
@@ -10,6 +11,7 @@ def countplt(df, target, feature):
     return plt.show()
 
 
+#this function creates a cat plot bar chart with a count as the y-axis(numerical to categorical)
 def catplt(df, target, feature):
     
     sns.catplot(data= df, x= target, y= feature, kind = 'bar')
@@ -17,6 +19,7 @@ def catplt(df, target, feature):
     return plt.show()
 
 
+#this function applies pearson r correlation test and returns values
 def corr(x, y):
 
     corr, p = stats.pearsonr(x, y)
@@ -24,6 +27,7 @@ def corr(x, y):
     return corr, p
 
 
+#this function applies chi-squared test and prints out values and conclusion
 def chi(df, target, feature):
     
     cross_tab = pd.crosstab(df[target], df[feature])
@@ -45,7 +49,7 @@ def chi(df, target, feature):
         print("Conclusion: There is no significant association between the variables. we fail to reject the null hypothesis")
 
         
-
+#this function applies a one sample two tailed t-test and prints values and conclusions
 def one_samp_t(sample, overall_mean):
 
     t, p = stats.ttest_1samp(sample, overall_mean)
