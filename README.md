@@ -1,12 +1,13 @@
 ## Classification-Model-Project
+
 ## Goal
 * The purpose of this model is to predict customer churn at Telco.
 * My goal is to find specific features that drive customer churn at Telco.
 
 ## Initial hypotheses
 
-* Null Hypothesis: features do not drive customers to churn
-* Alternative Hypothesis: features do drive customers to churn
+* Null Hypothesis: contract type and monthly charges features do not drive customers to churn
+* Alternative Hypothesis: contract type and monthly charges features do drive customers to churn
 
 ## Data dictionary
 
